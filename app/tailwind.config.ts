@@ -72,9 +72,14 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      //shadcn
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
+      //custom
+      boxShadow: {
+        custom: '0px 5px 20px #00c2cb, 0px 5px 20px #fff'
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
