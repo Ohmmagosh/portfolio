@@ -9,7 +9,7 @@ export default function Interests(props: TInterest) {
   return (
     <>
       <CardContainer title="interests">
-        <ul className="list-disc pl-8">
+        <ul className="list-disc pl-8 text-sm sm:text-base">
           {interests.map((item: string, index) => {
             return (
               <li key={index}>

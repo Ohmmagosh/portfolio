@@ -13,7 +13,7 @@ export default function Educations(props: TEducationProps) {
           {education.map((item: Education, index) => {
             return (
               <li key={index}>
-                <div className="">
+                <div className="text-sm sm:text-base">
                   <h3>{item.head}</h3>
                   <p>{item.details}</p>
                 </div>

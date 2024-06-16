@@ -8,7 +8,7 @@ export function Certificates(props: TCertificateProps) {
   return (
     <>
       <CardContainer title="certificates">
-        <ul className="list-disc pl-8">
+        <ul className="list-disc pl-8 text-sm sm:text-base">
           {certificate.map((item: Certificate, index) => {
             return (
               <li key={index}>

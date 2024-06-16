@@ -14,8 +14,11 @@ export function Technologies(props: TTechnologyProps) {
             return (
               <li key={index}>
                 <div className="flex">
-                  <h3 className="font-bold">{item.section}</h3>&nbsp;
-                  <p>{item.details}</p>
+                  <h3 className="font-bold text-sm sm:text-base">
+                    {item.section}
+                  </h3>
+                  &nbsp;
+                  <p className="text-sm sm:text-base">{item.details}</p>
                 </div>
               </li>
             );

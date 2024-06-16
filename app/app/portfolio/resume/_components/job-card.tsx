@@ -12,13 +12,13 @@ export default function JobCard(props: TJobCardProps) {
 
   return (
     <>
-      <section id="Job Card" className=" w-full flex flex-col">
+      <section id="Job Card" className=" w-full flex flex-col ">
         <div className="flex justify-between">
-          <h3 className="text-xl font-bold">{position}</h3>
-          <h3 className="text-xl font-bold">
+          <h3 className="text-sm sm:text-xl font-bold">{position}</h3>
+          <h3 className="text-sm sm:text-xl font-bold">
             <Link href={url ? url : "/profile/resume"}>{company}</Link>
           </h3>
-          <div className="flex text-xl font-bold">
+          <div className="flex text-sm sm:text-xl font-bold">
             <h3>{years[0]}</h3>&nbsp;-&nbsp;
             <h3>{years[1]}</h3>
             <h3></h3>
@@ -27,7 +27,7 @@ export default function JobCard(props: TJobCardProps) {
         <ul className="pl-8">
           {details.map((item, index) => {
             return (
-              <li key={index} className="text-base list-disc">
+              <li key={index} className="text-sm sm:text-base list-disc">
                 {item}
               </li>
             );

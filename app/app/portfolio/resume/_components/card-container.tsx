@@ -14,7 +14,7 @@ export function CardContainer(props: CardContainerProps) {
         id={cn("card-container", title)}
         className="w-full flex flex-col space-y-2"
       >
-        <h2 className="text-2xl font-bold">{title.toUpperCase()}</h2>
+        <h2 className="sm:text-2xl font-bold">{title.toUpperCase()}</h2>
         <Separator className="border border-black w-full bg-border items-center" />
         {children}
       </section>

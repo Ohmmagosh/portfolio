@@ -11,15 +11,15 @@
   },
   "technologies": [
     {
-      "section": "Languages :",
+      "section": "Languages ",
       "details": "C, C++, Javascript, Typescript, Python(Basic), Golang(Basic)"
     },
     {
-      "section": "Frameworks :",
+      "section": "Frameworks ",
       "details": "Next.js, React.js, TailwindCSS, Shadcn, Bootstrap, Mui, NodeJs, Vite, Streamlit"
     },
     {
-      "section": "Tools :",
+      "section": "Tools ",
       "details": "Github, GitLab, Docker, ClickUp, Taiga, Bash, Linux, Figma"
     }
   ],
