@@ -1,0 +1,105 @@
+{
+  "intro": {
+    "name": "Phatcharaphol Suanprom",
+    "nickname": "Ohm",
+    "phone": "0842789085",
+    "email": "phatcharaphol.suanprom@gmail.com",
+    "github": "https://github.com/Ohmmagosh",
+    "linkedin": "",
+    "location": "Bangkok, Thailand",
+    "website": ""
+  },
+  "technologies": [
+    {
+      "section": "Languages :",
+      "details": "C, C++, Javascript, Typescript, Python(Basic), Golang(Basic)"
+    },
+    {
+      "section": "Frameworks :",
+      "details": "Next.js, React.js, TailwindCSS, Shadcn, Bootstrap, Mui, NodeJs, Vite, Streamlit"
+    },
+    {
+      "section": "Tools :",
+      "details": "Github, GitLab, Docker, ClickUp, Taiga, Bash, Linux, Figma"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Thai",
+      "level": "Native"
+    }
+  ],
+  "workExperiences": [
+    {
+      "position": "Software Engineer ",
+      "company": "Freelance",
+      "years": [
+        "Aug 2023 ",
+        "Current"
+      ],
+      "details": [
+        "Designed user experience (UX) and user interface (UI) for a nutrition program",
+        "Utilized Next.js for the frontend and Django for the backend.",
+        "Creating intuitive and visually appealing interfaces.",
+        "Strong understanding of UX/UI design principles and best practices",
+        "Ability to translate user requirements into engaging and effective design solutions."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "42 Bangkok (Full time) ",
+      "url": "https://42bangkok.com/",
+      "years": [
+        "Feb 2023",
+        "Aug 2023"
+      ],
+      "details": [
+        "Developed user interfaces for internal programs within organizations.",
+        "Utilized Next.js for the frontend and Django for the backend.",
+        "Creating intuitive and visually appealing interfaces.",
+        "Enhancing user productivity and satisfaction",
+        "Deep understanding of frontend and backend technologies.",
+        "Ability to translate user requirements into engaging and effective design solutions."
+      ]
+    },
+    {
+      "position": "Software Engineer ",
+      "company": "42 Bangkok (contract) ",
+      "url": "https://42bangkok.com/",
+      "years": [
+        "Jan 2023",
+        "Feb 2023"
+      ],
+      "details": [
+        "I have developed applications using Python to connect to APIs and utilized the Streamlit Framework to create GUIs within my organization.",
+        "Experienced in debugging and troubleshooting software applications to identify and resolve issues promptly.",
+        "Skilled in analyzing log files and error messages to pinpoint root causes of issues.",
+        "Proficient in utilizing debugging tools and techniques to diagnose problems efficiently.",
+        "Proven track record of implementing effective solutions to enhance software performance and stability."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "head": "Bachelor of Business Administration, Major Supply Chain and Logistics Management, ",
+      "details": "HuachiewChalermprakiet University 2015-2019"
+    },
+    {
+      "head": "42 BANGKOK KMITL (Thailand) Programing School Cadet of 2022.",
+      "details": "2022 - current"
+    }
+  ],
+  "interests": [
+    "Game Development: Passionate about creating immersive gaming experiences and exploring game design principles.",
+    "CI/CD and Deployment: Fascinated by CI/CD practices and automation for efficient software deployment.",
+    "Home Server Setup: Intrigued by configuring and maintaining home servers for personal use and exploring self-hosted services."
+  ],
+  "certificates": [
+    {
+      "name": "FreeCodeCamp : JavaScript Algorithms and Data Structures"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner"
+    }
+  ]
+}
