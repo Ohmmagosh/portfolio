@@ -7,6 +7,7 @@ type TConfigUrls = {
 };
 
 const configUrls: TConfigUrls = {
+  profile: { href: "/portfolio/profile", label: "Profile" },
   resume: { href: "/portfolio/resume", label: "Resume" },
   projects: { href: "/portfolio/projects", label: "Projects" },
   github: { href: "https://github.com/Ohmmagosh", label: "Github" },
