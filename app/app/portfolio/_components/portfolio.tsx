@@ -16,7 +16,7 @@ export default function Portfolio() {
   return (
     <>
       <Suspense fallback={<LoadingPage />}>
-        <div className="flex flex-col items-center justify-center hidden md:inline-flex">
+        <div className="flex flex-col items-center justify-center md:inline-flex">
           {Object.keys(configUrls).map((key) => {
             return (
               <ButtonLink
