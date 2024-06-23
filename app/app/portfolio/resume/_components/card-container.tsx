@@ -1,4 +1,4 @@
-import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/_components/ui/separator";
 import { cn } from "@/lib/utils";
 
 type CardContainerProps = {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/_components/ui/button";
 import { cn } from "@/lib/utils";
 
 type TButtonLink = {
