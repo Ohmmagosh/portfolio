@@ -22,9 +22,9 @@ export default function Resume(props: TResumeProps) {
     <>
       <section
         id="resume"
-        className="w-full h-fit max-h-full bg-[#fff5ea] flex items-center justify-center py-8"
+        className="w-full h-fit max-h-full bg-[#fff5ea] flex items-center justify-center py-8 "
       >
-        <div className="h-fit max-w-screen-sm sm:max-w-screen-sm lg:max-w-screen-xl flex flex-col items-center space-y-4">
+        <div className="h-fit max-w-screen-sm sm:max-w-screen-sm lg:max-w-screen-xl flex flex-col items-center space-y-4 mb-8">
           <Header intro={intro} />
           <Technologies technology={technologies} />
           <Educations education={educations} />
