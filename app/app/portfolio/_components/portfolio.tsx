@@ -3,13 +3,13 @@ import { Suspense } from "react";
 import LoadingPage from "@/app/loading-page";
 
 type TConfigUrls = {
-  [key: string]: { href: string; label: string };
+  [key: string]: { href: string; label: string, disable?: boolean };
 };
 
 const configUrls: TConfigUrls = {
-  profile: { href: "/portfolio/profile", label: "Profile" },
+  profile: { href: "/portfolio/profile", label: "Profile", disable: true},
   resume: { href: "/portfolio/resume", label: "Resume" },
-  projects: { href: "/portfolio/projects", label: "Projects" },
+  projects: { href: "/portfolio/projects", label: "Projects", disable: true },
   github: { href: "https://github.com/Ohmmagosh", label: "Github" },
 };
 
@@ -24,6 +24,7 @@ export default function Portfolio() {
                 key={key}
                 href={configUrls[key].href}
                 label={configUrls[key].label}
+                disable={configUrls[key].disable}
               />
             );
           })}
